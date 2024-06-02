@@ -1,15 +1,19 @@
 --extra-index-url https://download.pytorch.org/whl/cu121
+
+protobuf==4.22.0
+
 torch==2.3.0+cu121
 torchvision==0.18.0+cu121
 omegaconf==2.3.0
 torchmetrics==0.10.3
 xformers
+torchtext
 
 # dev
 black==22.6.0
 
 # custom
-tensorboard
+tensorboard==2.12.0
 wandb
 matplotlib==3.6.1
 plotly==5.13.1
@@ -23,6 +27,7 @@ numpy
 ninja
 tqdm
 gdown
+
 
 # Nuscenes dependencies
 nuscenes-devkit
