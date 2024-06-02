@@ -1,5 +1,5 @@
 --extra-index-url https://download.pytorch.org/whl/cu121
-torch==2.3.0+cu121
+torch==2.2.0+cu121
 torchvision==0.18.0+cu121
 omegaconf==2.3.0
 torchmetrics==0.10.3
